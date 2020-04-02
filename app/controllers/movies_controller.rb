@@ -1,4 +1,4 @@
-class MoviesController < ApplicationController
+class MoviesController < ProtectedController
   before_action :set_movie, only: %i[show update destroy]
 
   # GET /movies
@@ -15,7 +15,7 @@ class MoviesController < ApplicationController
 
   # POST /movies
   def create
-    @movie = Movie.new(movie_params)
+    @movie = current_user.movies.build(movie_params)
 
     if @movie.save
       render json: @movie, status: :created, location: @movie
@@ -42,7 +42,7 @@ class MoviesController < ApplicationController
 
     # Use callbacks to share common setup or constraints between actions.
     def set_movie
-      @movie = Movie.find(params[:id])
+      @movie = current_user.movies.find(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
