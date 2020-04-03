@@ -3,7 +3,7 @@ class MoviesController < ProtectedController
 
   # GET /movies
   def index
-    @movies = Movie.all
+    @movies = current_user.movies.all
 
     render json: @movies
   end
