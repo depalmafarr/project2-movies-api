@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+c# frozen_string_literal: true
 
 Rails.application.routes.draw do
   resources :movies, except: %i[new edit]

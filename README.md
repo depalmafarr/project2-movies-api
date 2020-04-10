@@ -1,15 +1,47 @@
-# Movies API
- CRUDing your list of movies!
+# Movie Logger API
 
- # User stories 
-  * As a new user, I want to be able to track movies I have watched
-  * As a user, see a list of movies seen and want to be seen.
-  * As a user, I want to see how many times I have seen a movie and if I liked it.
+Stores account information, and movies for accounts to be used in the Movie logger client
 
-  * As a new user, I want to be able to create an account to keep track of my watched movies.
-  * As a returning user, I want to be able to see how many movies I have seen (this year?).
-  * As a returning user, I want to be able to rate movies.
+# Movie Logger API dev process
 
-  * As a returning user, I want to be able to log out so that other people can't see my stats.
-  * As a returning user, I want to be able to sign back in so I can be back on my account to check my movies.
-  * As a user, I want to see the table showing all of my movies seen.
+Started by deploying tables for users and movies and CRUDing on them. When I hit issues I used research and other classmates to get through building the API (my first api)
+
+## Deployed sites
+
+Front end (https://depalmafarr.github.io/project2-movies-client/).
+Back end (https://movie-logs-09.herokuapp.com/).
+
+## Getting Started
+
+For can be made and grunt served onto your server from the link to the project here (https://github.com/depalmafarr/project2-movies-client)
+
+### Future fixes/issues
+
+- Favorites list will be added at a later date through join table
+- List search (hopeful addition)
+- possible join table so movies only have to be uploaded once, then any user can say they have watched the movie and rate it on their account.
+
+### ERD
+
+ERD - https://drive.google.com/file/d/1JeGhDE_QwEcjonLyovJZ3Hom2KoRX4wH/view?usp=sharing
+
+## Built With
+
+* [Ruby on Rails] Ruby on Rails for server setup
+* [Ruby]
+* [Git]
+* [GitHub](https://github.com/)
+* [herokuapp api](https://www.heroku.com/)
+* [Postgres SQL] - databasing
+
+## Front end
+
+For the front end of this project, see (https://github.com/depalmafarr/project2-movies-client).
+
+## Authors
+
+* **Brandon DePalmaFarr** - *Initial work* - [DePalmaFarr](https://github.com/DePalmaFarr)
+
+## Acknowledgments
+
+* Used https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md for README template
