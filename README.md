@@ -2,9 +2,6 @@
 
 Stores account information, and movies for accounts to be used in the Movie logger client
 
-# Movie Logger API dev process
-
-Started by deploying tables for users and movies and CRUDing on them. When I hit issues I used research and other classmates to get through building the API (my first api)
 
 ## Deployed sites
 
