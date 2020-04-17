@@ -10,7 +10,7 @@ Back end (https://movie-logs-09.herokuapp.com/).
 
 ## Getting Started
 
-For can be made and grunt served onto your server from the link to the project here (https://github.com/depalmafarr/project2-movies-client)
+For can be made and grunt served onto your server from the link to the project here (https://github.com/depalmafarr/project2-movies-api)
 
 ### Future fixes/issues
 
