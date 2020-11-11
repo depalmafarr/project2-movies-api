@@ -17,6 +17,7 @@ For can be made and grunt served onto your server from the link to the project h
 - Favorites list will be added at a later date through join table
 - List search (hopeful addition)
 - possible join table so movies only have to be uploaded once, then any user can say they have watched the movie and rate it on their account.
+- Favorite movies list addition.
 
 ### ERD
 
